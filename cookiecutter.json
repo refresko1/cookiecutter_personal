@@ -1,0 +1,10 @@
+{
+    "project_tittle": "Cookiecutter Project_1",
+    "project_slug": "{{ cookiecutter.project_tittle.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_description": "description in cookiecutter project",
+    "project_author_name": "your name",
+    "project_packages": ["all", "Minimal"],
+    "project_python_version": "3.10",
+    "project_git_user": "user_git",
+    "project_git_mail": "mail_git"
+}

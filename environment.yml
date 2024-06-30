@@ -1,0 +1,16 @@
+
+name: cookiecutter_test
+
+dependencies:
+{% if cookiecutter.project_packages == "all" -%}
+  - fs
+  - jupyter
+  - jupyterlab
+  - pathlib
+  - pip
+  - pyprojroot
+  - python=3.10
+  - pip:
+    - pyhere
+  {% endif -%}
+    
