@@ -1,0 +1,9 @@
+fs
+jupyter
+jupyterlab
+pathlib
+pyhere
+pyprojroot
+pandas
+numpy
+matplotlib
